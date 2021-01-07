@@ -2363,25 +2363,46 @@ body.is-touch .main {
 }
 
 /* scrapshare */
-
 #scrapshare {
-  background: url("../../videos/scrapshare.mp4");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: left;
+  position: absolute;
+  top: -4px;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -100;
 }
 
 /* skittles */
-
 #skittles {
-  background: url("../../videos/skittles.mp4");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: right;
+  position: fixed;
+  top: 100px;
+  left: 53vw;
+  height: 100%;
+
+  z-index: -200;
 }
 
+/*banner*/
+
+#banner {
+  position: relative;
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#videobcg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  z-index: -100;
+}
 /* Contact */
 
 #contact {
