@@ -2378,7 +2378,7 @@ body.is-touch .main {
 #skittles {
   position: fixed;
   top: 100px;
-  left: 53vw;
+  left: 45vw;
   height: 100%;
 
   z-index: -200;
@@ -2403,6 +2403,16 @@ body.is-touch .main {
   width: auto;
   z-index: -100;
 }
+
+/* work */
+
+#work {
+  background: url("images/overlay.png"), url("../../images/work1.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center;
+}
+
 /* Contact */
 
 #contact {
