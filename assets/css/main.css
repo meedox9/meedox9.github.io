@@ -2407,7 +2407,7 @@ body.is-touch .main {
 /* work */
 
 #work {
-  background: url("images/overlay.png"), url("../../images/work1.jpg");
+  background: rgb(57, 69, 75);
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center;
